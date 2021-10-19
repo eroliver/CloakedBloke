@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Imports/Character Movement Fundamentals/Example Scenes/Showcase/ShowcaseScene.unity
+- path: Assets/Scenes/Prototyping/Hub.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
