@@ -26,7 +26,7 @@ public class Projectile : MonoBehaviour
     private void OnTriggerEnter(Collider target)
     {
         Debug.Log(target);
-        //Instantiate(hitEffect, transform.position, transform.rotation);
+        Instantiate(hitEffect, transform.position, transform.rotation);
         Destroy(gameObject);
         target.GetComponent<Damage>().ApplyDamage(damage);
     }

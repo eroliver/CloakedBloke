@@ -33,7 +33,6 @@ public class ProjectileController : MonoBehaviour
         RaycastHit targetHit;
         if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out targetHit, 1000f, targetableLayers))
         {
-            Debug.Log(targetHit.transform.name);
 
             GameObject projectileInstance = Instantiate(projectile, transform.position, transform.rotation);
             projectileInstance.transform.LookAt(targetHit.point);
