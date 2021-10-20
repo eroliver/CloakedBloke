@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2598001347195755573}
   - component: {fileID: 839615576743236986}
   - component: {fileID: 7840665412788272510}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4817,7 +4817,7 @@ GameObject:
   - component: {fileID: 6634800360955335867}
   - component: {fileID: 3337039124376844835}
   - component: {fileID: 4304318653422540941}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fireball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4858,7 +4858,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 0.75
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3337039124376844835
 Rigidbody:
@@ -4888,4 +4888,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f2908ae52d522642824794f66c846e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
+  damage: 5
+  hitEffect: {fileID: 0}

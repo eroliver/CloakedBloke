@@ -8,11 +8,18 @@ public class TestDummy : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(health);
+    }
 
+    public void takeDamage(float amount)
+    {
+        health = health - amount;
         if (health <= 0)
         {
             Destroy(gameObject);
+        }
+        else
+        {
+            Debug.Log(health);
         }
     }
 }

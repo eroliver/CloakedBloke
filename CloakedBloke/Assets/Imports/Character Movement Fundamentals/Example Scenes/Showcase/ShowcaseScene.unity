@@ -2007,11 +2007,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184478847}
   m_CullTransparentMesh: 1
---- !u!1 &186384467 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1273852644323278, guid: 5d075d3ed32dfe1498e31454964d07e8, type: 3}
-  m_PrefabInstance: {fileID: 423319069}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &187562248
 GameObject:
   m_ObjectHideFlags: 0
@@ -26300,7 +26295,7 @@ MonoBehaviour:
   menuKey: 99
   demoMenuObject: {fileID: 956250676}
   controllers:
-  - {fileID: 186384467}
+  - {fileID: 1378547437}
   - {fileID: 1378547437}
   - {fileID: 691989221}
   - {fileID: 487964599}

@@ -20,6 +20,8 @@ namespace CMF
         //All mouse input will be multiplied by this value;
         public float mouseInputMultiplier = 0.01f;
 
+
+
 	    public override float GetHorizontalCameraInput()
         {
             //Get raw mouse input;
@@ -68,4 +70,5 @@ namespace CMF
             return _input;
         }
     }
+
 }

@@ -9,8 +9,22 @@ namespace CMF
 	//The main purpose of this script is to prevent the camera from clipping into level geometry or to prevent any obstacles from blocking the player's view;
 	public class CameraDistanceRaycaster : MonoBehaviour {
 
+        //lock mouse on start and unlock if esc is pressed
+        private void Start()
+        {
+			Cursor.lockState = CursorLockMode.Locked;
+        }
+
+        private void Update()
+        {
+			if (Input.GetKeyDown("escape"))
+            {
+				Cursor.lockState = CursorLockMode.None;
+            }
+        }
+
         //Transform component of camera;
-		public Transform cameraTransform;
+        public Transform cameraTransform;
         //Transform component of camera target;
 		public Transform cameraTargetTransform;
 
