@@ -9,26 +9,17 @@ public class Projectile : MonoBehaviour
     private float speed;
     [SerializeField]
     private float damage;
-
-    private Rigidbody projectileRigidbody;
-
     [SerializeField]
     private GameObject hitEffect;
 
+    private Rigidbody projectileRigidbody;
+    private Collider projectileCollider;
 
     // Start is called before the first frame update
     void Start()
     {
         projectileRigidbody = GetComponent<Rigidbody>();
-    }
-
-
-    private void OnTriggerEnter(Collider target)
-    {
-        Debug.Log(target);
-        Instantiate(hitEffect, transform.position, transform.rotation);
-        Destroy(gameObject);
-        target.GetComponent<Damage>().ApplyDamage(damage);
+        projectileCollider = GetComponent<Collider>();
     }
 
     // Update is called once per frame
@@ -36,4 +27,30 @@ public class Projectile : MonoBehaviour
     {
         projectileRigidbody.velocity = transform.forward * speed;
     }
+
+    
+
+    private void OnTriggerEnter(Collider target)
+    {
+        Debug.Log(target);
+        Instantiate(hitEffect, transform.position, transform.rotation); 
+        Destroy(gameObject);
+        var targetHealth = target.GetComponent<Health>();
+        if (targetHealth != null)
+        {
+            target.GetComponent<Health>().TakeDamage(damage);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision);
+        //Instantiate(hitEffect, transform.position, transform.rotation);
+        var targetHealth = collision.collider.GetComponent<Health>();
+        if (targetHealth != null)
+        {
+            collision.collider.GetComponent<Health>().TakeDamage(damage);
+        }
+    }
+
 }
