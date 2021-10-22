@@ -808,8 +808,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetableLayers:
     serializedVersion: 2
-    m_Bits: 55
-  playerCamera: {fileID: 1842236000409457307}
+    m_Bits: 4663
+  raycastOrigin: {fileID: 1857774892942348729}
   projectile: {fileID: 8893841857199985904, guid: 452badac4eb171246b12df366b6de5ce,
     type: 3}
 --- !u!1 &1863268127999939235
@@ -956,6 +956,8 @@ GameObject:
   - component: {fileID: 1751145304128524139}
   - component: {fileID: 1747405085887187653}
   - component: {fileID: 1751664424640902609}
+  - component: {fileID: 1651923844}
+  - component: {fileID: 1651923845}
   m_Layer: 7
   m_Name: TempPlayer
   m_TagString: Untagged
@@ -1114,6 +1116,32 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 3efdd4c11a4bdc54a9087ab115c1de9e, type: 3}
   jumpClip: {fileID: 8300000, guid: 99ab8a4503de1f448ad764a5c4cdf9cc, type: 3}
   landClip: {fileID: 8300000, guid: c212aa2d646dfe248b7c96b4f0e4cb27, type: 3}
+--- !u!114 &1651923844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863433104618648635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723acf5c68dd7b54eb90d08d23191fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
+--- !u!114 &1651923845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863433104618648635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0767146ae6c7c42b4062c9f82a39c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilityKey1: 323
 --- !u!1 &1863475528746535655
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,7 +1493,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1863776523400702829}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: -13.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1857998500735289113}
@@ -1796,7 +1824,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864084390901597819}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!1 &1864215174276299591
 GameObject:
   m_ObjectHideFlags: 0

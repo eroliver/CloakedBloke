@@ -32,7 +32,7 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider target)
     {
-        Debug.Log(target);
+        //Debug.Log(target);
         Instantiate(hitEffect, transform.position, transform.rotation); 
         Destroy(gameObject);
         var targetHealth = target.GetComponent<Health>();
@@ -44,7 +44,7 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(collision);
+        //Debug.Log(collision);
         //Instantiate(hitEffect, transform.position, transform.rotation);
         var targetHealth = collision.collider.GetComponent<Health>();
         if (targetHealth != null)

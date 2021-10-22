@@ -9,7 +9,8 @@ namespace CMF
     {
 		public string horizontalInputAxis = "Horizontal";
 		public string verticalInputAxis = "Vertical";
-		public KeyCode jumpKey = KeyCode.Space;
+		[SerializeField]
+		private KeyCode jumpKey = KeyCode.Space;
 
 		//If this is enabled, Unity's internal input smoothing is bypassed;
 		public bool useRawInput = true;
@@ -34,7 +35,8 @@ namespace CMF
 		{
 			return Input.GetKey(jumpKey);
 		}
-    }
+
+	}
 
 	
 }

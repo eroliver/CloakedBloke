@@ -19,10 +19,7 @@ public class ProjectileController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown((0)))
-        {
-            fireProjectile();
-        }
+        
     }
 
     public void fireProjectile()
