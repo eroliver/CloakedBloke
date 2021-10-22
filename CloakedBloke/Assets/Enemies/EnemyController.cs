@@ -48,7 +48,6 @@ public class EnemyController : MonoBehaviour
     {
         player = UnityEngine.GameObject.Find("TempPlayer").transform;
         agent = GetComponent<NavMeshAgent>();
-
     }
 
     void TestMove()
