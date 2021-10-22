@@ -7,15 +7,10 @@ public class ProjectileController : MonoBehaviour
 {
     [SerializeField]
     private LayerMask targetableLayers;
-
     [SerializeField]
     private Transform raycastOrigin;
-
     [SerializeField]
     private GameObject projectile;
-
-    
-
     // Update is called once per frame
     void Update()
     {

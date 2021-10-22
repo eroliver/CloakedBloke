@@ -23,6 +23,10 @@ public class AITestController : MonoBehaviour
     private Vector3 wanderPoint;
     [SerializeField]
     private LayerMask groundMask, playerMask;
+    [SerializeField]
+    private bool playerInDetectionRange;
+    [SerializeField]
+    private bool playerInAttackRange;
 
 
     private NavMeshAgent navMeshAgent;
@@ -30,8 +34,6 @@ public class AITestController : MonoBehaviour
     private bool wanderPointSet;
     private float wanderPointRange = 20f;
     private bool attacked;
-    private bool playerInDetectionRange;
-    private bool playerInAttackRange;
     private Vector3 playerOffset;
     private float distanceToPlayerSquared;
     private ProjectileController aiProjectileController;
@@ -109,7 +111,7 @@ public class AITestController : MonoBehaviour
     {
         if (!playerInDetectionRange && !playerInAttackRange) state = State.Wandering;
         if (playerInDetectionRange && !playerInAttackRange) state = State.Chasing;
-        if (playerInDetectionRange && playerInAttackRange) state = State.Attacking;
+        if (playerInAttackRange) state = State.Attacking;
     }
 
     //refactor to take in range argument
@@ -141,7 +143,7 @@ public class AITestController : MonoBehaviour
 
         if (!attacked)
         {
-            Debug.Log("Attacked!");
+            //Debug.Log("Attacked!");
 
             aiProjectileController.fireProjectile();
 
