@@ -9,7 +9,7 @@ public class ProjectileController : MonoBehaviour
     private LayerMask targetableLayers;
 
     [SerializeField]
-    private Camera playerCamera;
+    private Transform raycastOrigin;
 
     [SerializeField]
     private GameObject projectile;
@@ -25,13 +25,13 @@ public class ProjectileController : MonoBehaviour
         }
     }
 
-    void fireProjectile()
+    public void fireProjectile()
     {
         //play animation for firing the abailty here
         //anim.play
 
         RaycastHit targetHit;
-        if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out targetHit, 1000f, targetableLayers))
+        if (Physics.Raycast(raycastOrigin.transform.position, raycastOrigin.transform.forward, out targetHit, 1000f, targetableLayers))
         {
 
             GameObject projectileInstance = Instantiate(projectile, transform.position, transform.rotation);
@@ -41,7 +41,7 @@ public class ProjectileController : MonoBehaviour
         {
             //allow player to fire without a target, aims for 100 units forward through the camera
             GameObject projectileInstance = Instantiate(projectile, transform.position, transform.rotation);
-            projectileInstance.transform.LookAt((playerCamera.transform.position + (playerCamera.transform.forward * 100)));
+            projectileInstance.transform.LookAt((raycastOrigin.transform.position + (raycastOrigin.transform.forward * 100)));
         }
         
         //GameObject fireball = Instantiate(projectile, transform.position, transform.rotation);
