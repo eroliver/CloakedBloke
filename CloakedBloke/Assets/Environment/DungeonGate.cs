@@ -6,22 +6,10 @@ using UnityEngine.SceneManagement;
 public class DungeonGate : MonoBehaviour
 {
     [SerializeField]
-    private Scene scene;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string sceneName;
 
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene(sceneName);
     }
 }
