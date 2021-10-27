@@ -7,13 +7,18 @@ public class AbilityController : MonoBehaviour
 {
     [SerializeField]
     private KeyCode abilityKey1 = KeyCode.Mouse0;
+    [SerializeField]
+    private KeyCode abilityKey2 = KeyCode.Mouse1;
 
     private ProjectileController projectileController;
+    private MinionSpawner minionSpawner;
+
 
     // Start is called before the first frame update
     void Start()
     {
         projectileController = GetComponentInChildren<ProjectileController>();
+        minionSpawner = GetComponentInChildren<MinionSpawner>();
 
     }
 
@@ -23,6 +28,10 @@ public class AbilityController : MonoBehaviour
         if (Input.GetKeyDown(abilityKey1))
         {
             projectileController.fireProjectile();
+        }
+        if (Input.GetKeyDown(abilityKey2))
+        {
+            minionSpawner.SpawnMinion();
         }
     }
 }

@@ -1191,6 +1191,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286078868}
   m_CullTransparentMesh: 1
+--- !u!1 &1286426980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1863433104618648635, guid: b8fd56aac3081cd49801b1502a332058,
+    type: 3}
+  m_PrefabInstance: {fileID: 1862246669872857972}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1286426981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286426980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564dd9160d4f3534082bc35b79974016, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minion: {fileID: 2721511251911974354, guid: 218836e732fb9ac4ca4e4ba2e83715aa, type: 3}
+  targetableLayers:
+    serializedVersion: 2
+    m_Bits: 4625
+  raycastOrigin: {fileID: 1862122165}
+  summonRange: 30
 --- !u!1 &1410274809
 GameObject:
   m_ObjectHideFlags: 0
@@ -1679,6 +1703,12 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &1862122165 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1862246669949352490, guid: b8fd56aac3081cd49801b1502a332058,
+    type: 3}
+  m_PrefabInstance: {fileID: 1862246669872857972}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1862616758
 GameObject:
   m_ObjectHideFlags: 0
