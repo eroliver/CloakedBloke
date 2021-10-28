@@ -10,6 +10,9 @@ public class DungeonGate : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(sceneName);
+        if (sceneName != null && other.tag == "Player")
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }

@@ -28,7 +28,6 @@ public class Projectile : MonoBehaviour
         projectileRigidbody.velocity = transform.forward * speed;
     }
 
-    
 
     private void OnTriggerEnter(Collider target)
     {

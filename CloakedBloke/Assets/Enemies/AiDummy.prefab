@@ -96,6 +96,8 @@ MonoBehaviour:
   playerMask:
     serializedVersion: 2
     m_Bits: 128
+  playerInDetectionRange: 0
+  playerInAttackRange: 0
 --- !u!114 &3046652227278491134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,6 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
+  type: 1
 --- !u!1 &3046652227473627250
 GameObject:
   m_ObjectHideFlags: 0
