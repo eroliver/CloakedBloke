@@ -20,15 +20,16 @@ public class Projectile : MonoBehaviour
     {
         projectileRigidbody = GetComponent<Rigidbody>();
         projectileCollider = GetComponent<Collider>();
+        projectileRigidbody.velocity = transform.forward * speed;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        projectileRigidbody.velocity = transform.forward * speed;
     }
 
-
+    //for non-physics projectiles: fireball
     private void OnTriggerEnter(Collider target)
     {
         //Debug.Log(target);
@@ -40,16 +41,16 @@ public class Projectile : MonoBehaviour
             target.GetComponent<Health>().TakeDamage(damage);
         }
     }
-
+    //for physics based projectiles: ice spike
     private void OnCollisionEnter(Collision collision)
     {
-        //Debug.Log(collision);
         //Instantiate(hitEffect, transform.position, transform.rotation);
         var targetHealth = collision.collider.GetComponent<Health>();
         if (targetHealth != null)
         {
             collision.collider.GetComponent<Health>().TakeDamage(damage);
         }
+        Destroy(gameObject);
     }
 
 }

@@ -327,4 +327,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  type: 1
+  damageable: 0

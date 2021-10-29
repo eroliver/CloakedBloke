@@ -25,15 +25,21 @@ public class AbilityController : MonoBehaviour
     private KeyCode ability5Key;
     [SerializeField]
     private GameObject ability5;
-
-
-    //Dictionary<Types, >
+    [SerializeField]
+    private GameObject abilitySpawner;
+    [SerializeField]
+    private GameObject minionSpawner;
+    //ability controllers
+    private GameObject ability1Controller;
+    private GameObject ability2Controller;
+    private GameObject ability3Controller;
+    private GameObject ability4Controller;
+    private GameObject ability5Controller;
 
     // Start is called before the first frame update
     void Start()
     {
-        
-
+        UpdateAbilityControls();
     }
 
     // Update is called once per frame
@@ -41,16 +47,37 @@ public class AbilityController : MonoBehaviour
     {
         if (Input.GetKeyDown(ability1Key))
         {
-            //ability1Controller.fireProjectile();
+            ability1Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability1);
         }
+        
         if (Input.GetKeyDown(ability2Key))
         {
-            //ability2Controller1.fireProjectile();
+            ability2Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability2);
+
         }
     }
 
     private void UpdateAbilityControls()
     {
-
+        if (ability1 != null)
+        {
+            if (ability1.GetComponent<Projectile>())
+            {
+                ability1Controller = Instantiate(abilitySpawner, transform, false);
+            }
+            else if (ability1.GetComponent<Minion>())
+            {
+                ability1Controller = Instantiate(abilitySpawner, transform, false);
+            }
+        }
+        if (ability2 != null)
+        {
+            if (ability2.GetComponent<Projectile>())
+            {
+                ability2Controller = Instantiate(abilitySpawner, transform, false);
+            }
+        }
     }
+
+
 }

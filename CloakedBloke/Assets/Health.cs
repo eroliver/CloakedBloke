@@ -15,8 +15,8 @@ public class Health : MonoBehaviour
     //Can give unique behavior based on the object with health.
     private enum Damageables
     {
-        player,
         enemy,
+        player,
         destructable
     }
 

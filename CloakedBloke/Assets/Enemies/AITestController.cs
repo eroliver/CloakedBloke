@@ -27,6 +27,8 @@ public class AITestController : MonoBehaviour
     private bool playerInDetectionRange;
     [SerializeField]
     private bool playerInAttackRange;
+    [SerializeField]
+
 
 
     private NavMeshAgent navMeshAgent;
@@ -36,7 +38,7 @@ public class AITestController : MonoBehaviour
     private bool attacked;
     private Vector3 playerOffset;
     private float distanceToPlayerSquared;
-    private ProjectileController aiProjectileController;
+    private ProjectileSpawner aiProjectileController;
 
     private enum State
     {
@@ -54,7 +56,7 @@ public class AITestController : MonoBehaviour
         player = GameObject.Find("TempPlayer").transform;
         navMeshAgent = GetComponent<NavMeshAgent>();
         state = State.Wandering;
-        aiProjectileController = GetComponentInChildren<ProjectileController>();
+        aiProjectileController = GetComponentInChildren<ProjectileSpawner>();
     }
 
     // Update is called once per frame

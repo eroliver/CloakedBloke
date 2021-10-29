@@ -98,6 +98,7 @@ MonoBehaviour:
     m_Bits: 128
   playerInDetectionRange: 0
   playerInAttackRange: 0
+  navMeshAgent: {fileID: 0}
 --- !u!114 &3046652227278491134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  type: 1
+  damageable: 0
 --- !u!1 &3046652227473627250
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,12 +313,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3046652228049631254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9339cbdb63eac3e4a8f2b1f65c5f067e, type: 3}
+  m_Script: {fileID: 11500000, guid: 06fa7d37aa086b0458da507e4f6c2032, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targetableLayers:
     serializedVersion: 2
-    m_Bits: 1719
+    m_Bits: 128
   raycastOrigin: {fileID: 3046652228049631255}
   projectile: {fileID: 8893841857199985904, guid: c06f2e767ba857a4ea86356f7a0ce929,
     type: 3}
