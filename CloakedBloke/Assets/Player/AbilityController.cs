@@ -6,34 +6,51 @@ using UnityEngine;
 public class AbilityController : MonoBehaviour
 {
     [SerializeField]
-    private KeyCode abilityKey1 = KeyCode.Mouse0;
+    private KeyCode ability1Key;
     [SerializeField]
-    private KeyCode abilityKey2 = KeyCode.Mouse1;
+    private GameObject ability1;
     [SerializeField]
-    private ProjectileController projectileController;
+    private KeyCode ability2Key;
     [SerializeField]
-    private ProjectileController projectileController1;
+    private GameObject ability2;
     [SerializeField]
-    private MinionSpawner minionSpawner;
+    private KeyCode ability3Key;
+    [SerializeField]
+    private GameObject ability3;
+    [SerializeField]
+    private KeyCode ability4Key;
+    [SerializeField]
+    private GameObject ability4;
+    [SerializeField]
+    private KeyCode ability5Key;
+    [SerializeField]
+    private GameObject ability5;
 
+
+    //Dictionary<Types, >
 
     // Start is called before the first frame update
     void Start()
     {
-        minionSpawner = GetComponentInChildren<MinionSpawner>();
+        
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(abilityKey1))
+        if (Input.GetKeyDown(ability1Key))
         {
-            projectileController.fireProjectile();
+            //ability1Controller.fireProjectile();
         }
-        if (Input.GetKeyDown(abilityKey2))
+        if (Input.GetKeyDown(ability2Key))
         {
-            projectileController1.fireProjectile();
+            //ability2Controller1.fireProjectile();
         }
+    }
+
+    private void UpdateAbilityControls()
+    {
+
     }
 }

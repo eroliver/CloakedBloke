@@ -9,11 +9,11 @@ public class Health : MonoBehaviour
     [SerializeField]
     private float health;
     [SerializeField]
-    types type;
+    Damageables damageable;
 
     //use this enum to differentiate between the types of objects that have hp.
     //Can give unique behavior based on the object with health.
-    private enum types
+    private enum Damageables
     {
         player,
         enemy,
@@ -38,9 +38,9 @@ public class Health : MonoBehaviour
      //this needs refactored into a health script...maybe health and damage should be the same script...
         health = health - amount;
 
-        switch (type)
+        switch (damageable)
         {
-            case types.player:
+            case Damageables.player:
                 if (health <= 0)
                 {
                     SceneManager.LoadScene("Hub");
@@ -50,7 +50,7 @@ public class Health : MonoBehaviour
                     Debug.Log(health);
                 }
                 break;
-            case types.enemy:
+            case Damageables.enemy:
                 if (health <= 0)
                 {
                     Destroy(gameObject);
@@ -60,7 +60,7 @@ public class Health : MonoBehaviour
                     Debug.Log(health);
                 }
                 break;
-            case types.destructable:
+            case Damageables.destructable:
                 if (health <= 0)
                 {
                     Destroy(gameObject);
