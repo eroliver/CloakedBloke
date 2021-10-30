@@ -17,7 +17,8 @@ public class Health : MonoBehaviour
     {
         enemy,
         player,
-        destructable
+        destructable,
+        shield
     }
 
     // Start is called before the first frame update
@@ -64,6 +65,16 @@ public class Health : MonoBehaviour
                 if (health <= 0)
                 {
                     Destroy(gameObject);
+                }
+                else
+                {
+                    Debug.Log(health);
+                }
+                break;
+            case Damageables.shield:
+                if (health <= 0)
+                {
+                    GetComponent<Shield>().Break();
                 }
                 else
                 {

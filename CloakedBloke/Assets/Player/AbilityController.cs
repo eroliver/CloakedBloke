@@ -25,8 +25,12 @@ public class AbilityController : MonoBehaviour
     private KeyCode ability5Key;
     [SerializeField]
     private GameObject ability5;
+
+    //Types of of spawners
     [SerializeField]
     private GameObject abilitySpawner;
+    [SerializeField]
+    private GameObject shieldSpawner;
     [SerializeField]
     private GameObject minionSpawner;
     //ability controllers
@@ -45,6 +49,13 @@ public class AbilityController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //lock the cursor in the game so mouse isn't leaving while play testing
+        if (Input.GetMouseButtonDown(0))
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+
+        //refactor this out to detect ability key pressed function, which could hold global cd
         if (Input.GetKeyDown(ability1Key))
         {
             ability1Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability1);
@@ -53,6 +64,11 @@ public class AbilityController : MonoBehaviour
         if (Input.GetKeyDown(ability2Key))
         {
             ability2Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability2);
+
+        }
+        if (Input.GetKeyDown(ability3Key))
+        {
+            ability3Controller.GetComponent<ShieldSpawner>().SpawnShield();
 
         }
     }
@@ -75,6 +91,13 @@ public class AbilityController : MonoBehaviour
             if (ability2.GetComponent<Projectile>())
             {
                 ability2Controller = Instantiate(abilitySpawner, transform, false);
+            }
+        }
+        if (ability3 != null)
+        {
+            if (ability3.GetComponent<Shield>())
+            {
+                ability3Controller = Instantiate(shieldSpawner, transform, false);
             }
         }
     }

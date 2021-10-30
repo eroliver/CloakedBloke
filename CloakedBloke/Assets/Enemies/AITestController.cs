@@ -147,7 +147,7 @@ public class AITestController : MonoBehaviour
         {
             //Debug.Log("Attacked!");
 
-            aiProjectileController.fireProjectile();
+            aiProjectileController.FireProjectile();
 
             attacked = true;
 

@@ -12,7 +12,7 @@ namespace CMF
         //lock mouse on start and unlock if esc is pressed
         private void Start()
         {
-			Cursor.lockState = CursorLockMode.Locked;
+			
         }
 
         private void Update()

@@ -773,6 +773,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1857763841066761091}
+  - {fileID: 44981056052387373}
   m_Father: {fileID: 1861829000965755105}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -877,7 +878,6 @@ Transform:
   - {fileID: 1861780239812597353}
   - {fileID: 1858069791646280289}
   - {fileID: 260124093}
-  - {fileID: 44981056052387373}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1027,7 +1027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 723acf5c68dd7b54eb90d08d23191fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  health: 30
   damageable: 1
 --- !u!1 &1863475528746535655
 GameObject:
@@ -1767,12 +1767,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7212472767086781738}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1861829000965755105}
-  m_RootOrder: 3
+  m_Father: {fileID: 1861780239812597353}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1130984214
 MonoBehaviour:
@@ -1793,11 +1793,14 @@ MonoBehaviour:
   ability2: {fileID: 8893841857199985904, guid: 452badac4eb171246b12df366b6de5ce,
     type: 3}
   ability3Key: 113
-  ability3: {fileID: 0}
+  ability3: {fileID: 5096839695398070788, guid: 76c6266d29558804390bfc6c2cb8af8c,
+    type: 3}
   ability4Key: 101
   ability4: {fileID: 0}
   ability5Key: 114
   ability5: {fileID: 0}
   abilitySpawner: {fileID: 5801851590793643124, guid: 32a33545488056c459e995f8a4483eff,
+    type: 3}
+  shieldSpawner: {fileID: 6072838524651018412, guid: a563b4374b0a4e4468c5ee034a623269,
     type: 3}
   minionSpawner: {fileID: 0}
