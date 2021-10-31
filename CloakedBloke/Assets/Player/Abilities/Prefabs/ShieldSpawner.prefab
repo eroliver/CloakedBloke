@@ -43,5 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d507aaf3db0114fb271322bfdb32db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raycastOrigin: {fileID: 0}
+  cameraTarget: {fileID: 0}
   shield: {fileID: 5096839695398070788, guid: 76c6266d29558804390bfc6c2cb8af8c, type: 3}

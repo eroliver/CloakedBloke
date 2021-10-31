@@ -1558,7 +1558,7 @@ MonoBehaviour:
   castType: 0
   layerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 6071
   ignoreList:
   - {fileID: 1746210590442076369}
   minimumDistanceFromObstacles: 0.3
@@ -1767,7 +1767,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7212472767086781738}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []

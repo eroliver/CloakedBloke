@@ -71,6 +71,11 @@ public class AbilityController : MonoBehaviour
             ability3Controller.GetComponent<ShieldSpawner>().SpawnShield();
 
         }
+        if (Input.GetKeyDown(ability4Key))
+        {
+            ability4Controller.GetComponent<MinionSpawner>().SpawnMinion(ability4);
+
+        }
     }
 
     private void UpdateAbilityControls()
@@ -98,6 +103,13 @@ public class AbilityController : MonoBehaviour
             if (ability3.GetComponent<Shield>())
             {
                 ability3Controller = Instantiate(shieldSpawner, transform, false);
+            }
+        }
+        if (ability4 != null)
+        {
+            if (ability4.GetComponent<Minion>())
+            {
+                ability4Controller = Instantiate(minionSpawner, transform, false);
             }
         }
     }
