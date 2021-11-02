@@ -25,6 +25,10 @@ public class AbilityController : MonoBehaviour
     private KeyCode ability5Key;
     [SerializeField]
     private GameObject ability5;
+    [SerializeField]
+    private KeyCode ability6Key = KeyCode.LeftShift;
+    //[SerializeField]
+    //private GameObject ability6;
 
     //Types of of spawners
     [SerializeField]
@@ -40,9 +44,18 @@ public class AbilityController : MonoBehaviour
     private GameObject ability4Controller;
     private GameObject ability5Controller;
 
+    //variables for movement abilities, speed might need to become distance...testing needed.
+    [SerializeField]
+    private int dashSpeed;
+
+    private Rigidbody playerRigidbody;
+    private bool isDashing = false;
+
     // Start is called before the first frame update
     void Start()
     {
+        playerRigidbody = GetComponentInParent<Rigidbody>();
+
         UpdateAbilityControls();
     }
 
@@ -60,7 +73,7 @@ public class AbilityController : MonoBehaviour
         {
             ability1Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability1);
         }
-        
+
         if (Input.GetKeyDown(ability2Key))
         {
             ability2Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability2);
@@ -76,6 +89,26 @@ public class AbilityController : MonoBehaviour
             ability4Controller.GetComponent<MinionSpawner>().SpawnMinion(ability4);
 
         }
+
+        if (Input.GetKeyDown(ability6Key))
+        {
+            isDashing = true;
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (isDashing)
+        {
+            Dash();
+        }
+    }
+
+    private void Dash()
+    {
+        playerRigidbody.AddForce(transform.forward * dashSpeed, ForceMode.VelocityChange);
+
+        isDashing = false;
     }
 
     private void UpdateAbilityControls()

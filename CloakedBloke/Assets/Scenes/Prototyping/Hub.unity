@@ -2804,10 +2804,19 @@ PrefabInstance:
       objectReference: {fileID: 2721511251911974354, guid: 218836e732fb9ac4ca4e4ba2e83715aa,
         type: 3}
     - target: {fileID: 1130984214, guid: b8fd56aac3081cd49801b1502a332058, type: 3}
+      propertyPath: dashSpeed
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130984214, guid: b8fd56aac3081cd49801b1502a332058, type: 3}
       propertyPath: minionSpawner
       value: 
       objectReference: {fileID: 7148922521259915804, guid: 6b1038aa693871d48b5f4dbaa4cff0c3,
         type: 3}
+    - target: {fileID: 1747410782007495165, guid: b8fd56aac3081cd49801b1502a332058,
+        type: 3}
+      propertyPath: movementSpeed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 1861829000965755105, guid: b8fd56aac3081cd49801b1502a332058,
         type: 3}
       propertyPath: m_RootOrder
