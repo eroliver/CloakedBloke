@@ -30,7 +30,6 @@ public class AITestController : MonoBehaviour
     [SerializeField]
 
 
-
     private NavMeshAgent navMeshAgent;
     private Transform player;
     private bool wanderPointSet;
@@ -53,7 +52,7 @@ public class AITestController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("TempPlayer").transform;
+        player = GameObject.Find("Player").transform;
         navMeshAgent = GetComponent<NavMeshAgent>();
         state = State.Wandering;
         aiProjectileController = GetComponentInChildren<ProjectileSpawner>();
@@ -215,7 +214,6 @@ public class AITestController : MonoBehaviour
     {
         //animator.SetBool("isDead", true);
         state = State.Dead;
-        navMeshAgent.SetDestination(transform.position);
         //fix enemy rotating after death and jitter usually after machine gun death
     }
 }
