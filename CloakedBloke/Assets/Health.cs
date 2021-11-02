@@ -84,14 +84,6 @@ public class Health : MonoBehaviour
             default:
                 break;
         }
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            Debug.Log(health);
-        }
     }
 
     private void Die()

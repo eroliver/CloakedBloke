@@ -38,6 +38,7 @@ public class AITestController : MonoBehaviour
     private Vector3 playerOffset;
     private float distanceToPlayerSquared;
     private ProjectileSpawner aiProjectileController;
+    private float movementMultiplier = 1;
 
     private enum State
     {
@@ -161,14 +162,14 @@ public class AITestController : MonoBehaviour
 
     private void Chasing()
     {
-        navMeshAgent.speed = runSpeed;
+        navMeshAgent.speed = runSpeed * movementMultiplier;
 
         navMeshAgent.SetDestination(player.position);
     }
 
     private void Wander()
     {
-        navMeshAgent.speed = walkSpeed;
+        navMeshAgent.speed = walkSpeed * movementMultiplier;
 
         if (!wanderPointSet) SearchWanderPoint();
 
@@ -215,5 +216,14 @@ public class AITestController : MonoBehaviour
         //animator.SetBool("isDead", true);
         state = State.Dead;
         //fix enemy rotating after death and jitter usually after machine gun death
+    }
+
+
+    public IEnumerator Slow(float amount, float duration)
+    {
+        movementMultiplier = 1 - amount;
+        Debug.Log("slowed ienum");
+        yield return new WaitForSeconds(duration);
+        movementMultiplier = 1;
     }
 }

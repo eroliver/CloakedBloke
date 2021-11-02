@@ -10,6 +10,10 @@ public class Projectile : MonoBehaviour
     [SerializeField]
     private float damage;
     [SerializeField]
+    private float amount;
+    [SerializeField]
+    private float duration;
+    [SerializeField]
     private GameObject hitEffect;
 
     private Rigidbody projectileRigidbody;
@@ -46,9 +50,15 @@ public class Projectile : MonoBehaviour
     {
         Instantiate(hitEffect, transform.position, transform.rotation);
         var targetHealth = collision.collider.GetComponent<Health>();
+        var targetEffect = collision.collider.GetComponent<Effect>();
+
         if (targetHealth != null)
         {
             collision.collider.GetComponent<Health>().TakeDamage(damage);
+        }
+        if (targetEffect != null)
+        {
+            collision.collider.GetComponent<Effect>().Slow(amount, duration);
         }
         Destroy(gameObject);
     }
