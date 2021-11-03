@@ -9,14 +9,26 @@ namespace CMF
 	//Custom movement input can be implemented by creating a new script that inherits 'AdvancedWalkerController' and overriding the 'CalculateMovementDirection' function;
 	public class AdvancedWalkerController : Controller {
 
+		//extensions to the built in controller
+		private float movementMultiplier = 1;
+
+
+		public IEnumerator Slow(float amount, float duration)
+		{
+			movementMultiplier = 1 - amount;
+			Debug.Log("slowed player ienum");
+			yield return new WaitForSeconds(duration);
+			movementMultiplier = 1;
+		}
+
 		//References to attached components;
 		protected Transform tr;
 		protected Mover mover;
 		protected CharacterInput characterInput;
 		protected CeilingDetector ceilingDetector;
 
-        //Jump key variables;
-        bool jumpInputIsLocked = false;
+		//Jump key variables;
+		bool jumpInputIsLocked = false;
         bool jumpKeyWasPressed = false;
 		bool jumpKeyWasLetGo = false;
 		bool jumpKeyIsPressed = false;
@@ -209,7 +221,7 @@ namespace CMF
 			Vector3 _velocity = CalculateMovementDirection();
 
 			//Multiply (normalized) velocity with movement speed;
-			_velocity *= movementSpeed;
+			_velocity *= movementSpeed * movementMultiplier;
 
 			return _velocity;
 		}
@@ -387,7 +399,7 @@ namespace CMF
 				Vector3 _movementVelocity = CalculateMovementVelocity();
 
 				//If controller has received additional momentum from somewhere else;
-				if(_horizontalMomentum.magnitude > movementSpeed)
+				if(_horizontalMomentum.magnitude > movementSpeed * movementMultiplier)
 				{
 					//Prevent unwanted accumulation of speed in the direction of the current momentum;
 					if(VectorMath.GetDotProduct(_movementVelocity, _horizontalMomentum.normalized) > 0f)
@@ -402,7 +414,7 @@ namespace CMF
 				{
 					//Clamp _horizontal velocity to prevent accumulation of speed;
 					_horizontalMomentum += _movementVelocity * Time.deltaTime * airControlRate;
-					_horizontalMomentum = Vector3.ClampMagnitude(_horizontalMomentum, movementSpeed);
+					_horizontalMomentum = Vector3.ClampMagnitude(_horizontalMomentum, (movementSpeed * movementMultiplier));
 				}
 			}
 
@@ -626,5 +638,9 @@ namespace CMF
 			else
 				momentum = _newMomentum;
 		}
+
+		
+
+
 	}
 }

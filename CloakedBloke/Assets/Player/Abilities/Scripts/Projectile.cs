@@ -10,9 +10,14 @@ public class Projectile : MonoBehaviour
     [SerializeField]
     private float damage;
     [SerializeField]
-    private float amount;
+    private float slowAmount;
     [SerializeField]
-    private float duration;
+    private float slowDuration;
+    [SerializeField]
+    private float DamageOverTime;
+    [SerializeField]
+    private int DoTDuration;
+
     [SerializeField]
     private GameObject hitEffect;
 
@@ -40,9 +45,17 @@ public class Projectile : MonoBehaviour
         Instantiate(hitEffect, transform.position, transform.rotation); 
         Destroy(gameObject);
         var targetHealth = target.GetComponent<Health>();
+        var targetEffect = target.GetComponent<Effect>();
+
         if (targetHealth != null)
         {
-            target.GetComponent<Health>().TakeDamage(damage);
+            targetHealth.TakeDamage(damage);
+            StartCoroutine(targetHealth.DoT(DamageOverTime, DoTDuration));
+        }
+        if (targetEffect != null)
+        {
+            target.GetComponent<Effect>().Slow(slowAmount, slowDuration);
+
         }
     }
     //for physics based projectiles: ice spike
@@ -55,10 +68,12 @@ public class Projectile : MonoBehaviour
         if (targetHealth != null)
         {
             collision.collider.GetComponent<Health>().TakeDamage(damage);
+            targetHealth.ApplyDoT(DamageOverTime, DoTDuration);
+
         }
         if (targetEffect != null)
         {
-            collision.collider.GetComponent<Effect>().Slow(amount, duration);
+            collision.collider.GetComponent<Effect>().Slow(slowAmount, slowDuration);
         }
         Destroy(gameObject);
     }

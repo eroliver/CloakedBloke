@@ -4880,5 +4880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  damage: 5
+  damage: 1
+  amount: 0.9
+  duration: 10
   hitEffect: {fileID: 1828176872806910, guid: 64891a0eb28db934898420d80ca07cb3, type: 3}
