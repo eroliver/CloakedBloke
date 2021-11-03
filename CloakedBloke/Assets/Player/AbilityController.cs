@@ -5,6 +5,11 @@ using UnityEngine;
 //Handle all input from the player that is related to abilites to avoid adding complexity to the movement scripts
 public class AbilityController : MonoBehaviour
 {
+    //make this a dictionary so you can define the controller that each ability uses. 
+    //then the value can be the controller.
+    [SerializeField]
+    public List<GameObject> abilities;
+
     [SerializeField]
     private KeyCode ability1Key;
     [SerializeField]
@@ -55,6 +60,8 @@ public class AbilityController : MonoBehaviour
     void Start()
     {
         playerRigidbody = GetComponentInParent<Rigidbody>();
+
+        
 
         UpdateAbilityControls();
     }
@@ -113,39 +120,48 @@ public class AbilityController : MonoBehaviour
 
     private void UpdateAbilityControls()
     {
-        if (ability1 != null)
-        {
-            if (ability1.GetComponent<Projectile>())
-            {
-                ability1Controller = Instantiate(abilitySpawner, transform, false);
-            }
-            else if (ability1.GetComponent<Minion>())
-            {
-                ability1Controller = Instantiate(abilitySpawner, transform, false);
-            }
-        }
-        if (ability2 != null)
-        {
-            if (ability2.GetComponent<Projectile>())
-            {
-                ability2Controller = Instantiate(abilitySpawner, transform, false);
-            }
-        }
-        if (ability3 != null)
-        {
-            if (ability3.GetComponent<Shield>())
-            {
-                ability3Controller = Instantiate(shieldSpawner, transform, false);
-            }
-        }
-        if (ability4 != null)
-        {
-            if (ability4.GetComponent<Minion>())
-            {
-                ability4Controller = Instantiate(minionSpawner, transform, false);
-            }
-        }
+
+        
+
+        //without using a list?
+        //if (ability1 != null)
+        //{
+        //    if (ability1.GetComponent<Projectile>())
+        //    {
+        //        ability1Controller = Instantiate(abilitySpawner, transform, false);
+        //    }
+        //    else if (ability1.GetComponent<Minion>())
+        //    {
+        //        ability1Controller = Instantiate(abilitySpawner, transform, false);
+        //    }
+        //    else if (ability1.GetComponent<Shield>())
+        //    {
+        //        ability1Controller = Instantiate(shieldSpawner, transform, false);
+        //    }
+        //}
+        //if (ability2 != null)
+        //{
+        //    if (ability2.GetComponent<Projectile>())
+        //    {
+        //        ability2Controller = Instantiate(abilitySpawner, transform, false);
+        //    }
+        //}
+        //if (ability3 != null)
+        //{
+        //    if (ability3.GetComponent<Shield>())
+        //    {
+        //        ability3Controller = Instantiate(shieldSpawner, transform, false);
+        //    }
+        //}
+        //if (ability4 != null)
+        //{
+        //    if (ability4.GetComponent<Minion>())
+        //    {
+        //        ability4Controller = Instantiate(minionSpawner, transform, false);
+        //    }
+        //}
     }
+
 
 
 }

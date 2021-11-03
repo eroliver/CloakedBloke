@@ -15,11 +15,11 @@ F:/Projects/TeamProjects/CloakedBlokeRep/CloakedBloke/CloakedBloke
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51167
+60969
 Successfully changed project path to: F:/Projects/TeamProjects/CloakedBlokeRep/CloakedBloke/CloakedBloke
 F:/Projects/TeamProjects/CloakedBlokeRep/CloakedBloke/CloakedBloke
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 56.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path F:/Program Files/Unity/Editors/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,518 +35,286 @@ Initialize mono
 Mono path[0] = 'F:/Program Files/Unity/Editors/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Program Files/Unity/Editors/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'F:/Program Files/Unity/Editors/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Program Files/Unity/Editors/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/Program Files/Unity/Editors/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002587 seconds.
+Registered in 0.002695 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 44.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.084 seconds
+- Completed reload, in  1.971 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005224 seconds.
+Registered in 0.012795 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001C9A27CDCF0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000027EE7576030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ACB570 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-0000027EE9233010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4967090 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000027EE9233010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A23ECC20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000027EE9246620 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E497D490 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-0000027EE57BB4F0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ACB570 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000027EE5966230 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ACB570 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000027EE57DA010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1456020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000027EE57DA010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1483A30 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000027EE7B25A30 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4D47A10 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-0000027EE910A020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ACB570 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000027EE7B25A30 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A131D020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-0000027EE7D9B020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A131D020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-0000027EE7D9B020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A23ECC20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-0000027EE5574B30 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0DECA50 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000027EE7A8BCA0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0DECA50 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000027EE5801020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1331A30 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000027EE7AA4020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0DECA50 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-0000027EE7589E20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1331A30 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000027EE7CF3020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0DECA50 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-0000027EE7589E20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4C54060 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-0000027EE910A020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0D11600 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-0000027EE5A577D0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0F33C40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-0000027EE58B0D20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0C0EE10 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-0000027EE547AC90 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0B3AA20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000027EE5A601E0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1371020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000027EE7C9F020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1397230 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000027EE7DD1A50 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4D1B850 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-0000027EE54E4010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0D1EA20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-0000027EE80F3A20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E470B780 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-0000027EE74D3230 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.217 seconds
+- Completed reload, in  1.065 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2067 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 184.5 MB.
 System memory in use after: 184.6 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2534.
-Total: 2.094800 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.074300 ms MarkObjects: 1.660900 ms  DeleteObjects: 0.172600 ms)
+Total: 2.096700 ms (FindLiveObjects: 0.165200 ms CreateObjectMapping: 0.066000 ms MarkObjects: 1.727200 ms  DeleteObjects: 0.137500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Effect.cs
-  artifactKey: Guid(13a3fa1dd98f96d498dc9a8b0f3a8811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effect.cs using Guid(13a3fa1dd98f96d498dc9a8b0f3a8811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48da013040a7174976bf2b82a1e041c6') in 0.054101 seconds
-  Import took 0.056812 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005034 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C7E4CA9710 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E494D030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A55E8010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A09E8700 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6875D20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E498D100 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E494D030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0CEC9F0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1562040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1300230 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A55E8010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A287E440 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1456020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0BFF020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0BFF020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4AB0030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1456020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4AB0030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ABCF60 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0EDD010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A23EFA20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4FD4EC0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4CA9710 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A55F6C20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A57DE2E0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4EAF840 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4EE6030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A53D49D0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4CA9710 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E49C1720 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.1 MB.
-System memory in use after: 178.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2537.
-Total: 2.152600 ms (FindLiveObjects: 0.198900 ms CreateObjectMapping: 0.079600 ms MarkObjects: 1.770700 ms  DeleteObjects: 0.102500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005103 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C7E4CA9710 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A54BE010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0F9E020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0BFF020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A68686B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E498D100 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A54BE010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A538B010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1562040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FAA6C6F0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A54BE010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4A6E010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4E6A410 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0BFF020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0BFF020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FAA470D0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4E6A410 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0B35C20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4549010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0B35C20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FAA409D0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ACCF70 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4762C30 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FAA77B40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A2C20E90 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0E47020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ACCF70 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4EF0A40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A40F5A40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E49C2DA0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.1 MB.
-System memory in use after: 178.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2540.
-Total: 1.961400 ms (FindLiveObjects: 0.176000 ms CreateObjectMapping: 0.071500 ms MarkObjects: 1.613300 ms  DeleteObjects: 0.099700 ms)
+  path: Assets/Player/Abilities/Prefabs/ShieldSpawner.prefab
+  artifactKey: Guid(a563b4374b0a4e4468c5ee034a623269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Abilities/Prefabs/ShieldSpawner.prefab using Guid(a563b4374b0a4e4468c5ee034a623269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ed350d98e88c80b060f1e22e192096') in 0.074745 seconds
+  Import took 0.077753 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1340.136513 seconds.
-  path: Assets/Player/Abilities/Prefabs/EarthShatter.prefab
-  artifactKey: Guid(32c9fd11a72259d45aa26ae41c34c5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Abilities/Prefabs/EarthShatter.prefab using Guid(32c9fd11a72259d45aa26ae41c34c5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0fac6d9dff82c239901e4c0221f472') in 0.047646 seconds
-  Import took 0.052196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Player/Abilities/Prefabs/Fireball.prefab
-  artifactKey: Guid(452badac4eb171246b12df366b6de5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Abilities/Prefabs/Fireball.prefab using Guid(452badac4eb171246b12df366b6de5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7743c3bff23abd94059762ccdf52cf03') in 0.009305 seconds
-  Import took 0.012735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Player/Abilities/Prefabs/EarthShatter.prefab
-  artifactKey: Guid(32c9fd11a72259d45aa26ae41c34c5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Abilities/Prefabs/EarthShatter.prefab using Guid(32c9fd11a72259d45aa26ae41c34c5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0fac6d9dff82c239901e4c0221f472') in 0.014556 seconds
-  Import took 0.018783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Player/Abilities/Prefabs/Fireball.prefab
-  artifactKey: Guid(452badac4eb171246b12df366b6de5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Abilities/Prefabs/Fireball.prefab using Guid(452badac4eb171246b12df366b6de5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7743c3bff23abd94059762ccdf52cf03') in 0.010395 seconds
-  Import took 0.013817 seconds .
+  Time since last request: 0.000288 seconds.
+  path: Assets/Player/Abilities/Prefabs/AbilitySpawner.prefab
+  artifactKey: Guid(32a33545488056c459e995f8a4483eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Abilities/Prefabs/AbilitySpawner.prefab using Guid(32a33545488056c459e995f8a4483eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237b33e8b966722f6c3377cdbba9b51e') in 0.062643 seconds
+  Import took 0.065674 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000229 seconds.
+  path: Assets/Player/Abilities/Prefabs/MinionSpawner.prefab
+  artifactKey: Guid(6b1038aa693871d48b5f4dbaa4cff0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Abilities/Prefabs/MinionSpawner.prefab using Guid(6b1038aa693871d48b5f4dbaa4cff0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8895035bad9b4ab605705f0c7030586') in 0.007023 seconds
+  Import took 0.009780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Player/Abilities/Prefabs/WindShield.prefab
+  artifactKey: Guid(76c6266d29558804390bfc6c2cb8af8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Abilities/Prefabs/WindShield.prefab using Guid(76c6266d29558804390bfc6c2cb8af8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0416ca3975fb770d96872107494cce13') in 0.007494 seconds
+  Import took 0.010390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(4f387bfa8ad15524792effb048d5747b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(4f387bfa8ad15524792effb048d5747b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07939adff9216fa1cf1ad176772ca9da') in 0.014253 seconds
+  Import took 0.017705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Player/Abilities/Prefabs/Fireball.prefab
+  artifactKey: Guid(452badac4eb171246b12df366b6de5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Abilities/Prefabs/Fireball.prefab using Guid(452badac4eb171246b12df366b6de5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0200d2f1b6b261fa466376377f2b679') in 0.010140 seconds
+  Import took 0.013835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Player/Abilities/Prefabs/Ignite.prefab
+  artifactKey: Guid(e94066ec59380ec48bb5ad98774c67ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Abilities/Prefabs/Ignite.prefab using Guid(e94066ec59380ec48bb5ad98774c67ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d82ecd56c207d0e683c648204c4a6ac') in 0.010032 seconds
+  Import took 0.014097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Player/Abilities/Prefabs/EarthShatter.prefab
+  artifactKey: Guid(32c9fd11a72259d45aa26ae41c34c5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Abilities/Prefabs/EarthShatter.prefab using Guid(32c9fd11a72259d45aa26ae41c34c5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1c9e056038a63620c06e4487d85ac2') in 0.012770 seconds
+  Import took 0.017172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Player/Abilities/Prefabs/IceShards.prefab
+  artifactKey: Guid(de8d36b170355384ba801084c565e29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Abilities/Prefabs/IceShards.prefab using Guid(de8d36b170355384ba801084c565e29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915205aced5b3909d8454d8f90c89c40') in 0.008779 seconds
+  Import took 0.012422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Player/Abilities/Prefabs/MinionDummy.prefab
+  artifactKey: Guid(218836e732fb9ac4ca4e4ba2e83715aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Abilities/Prefabs/MinionDummy.prefab using Guid(218836e732fb9ac4ca4e4ba2e83715aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281f25c53d0a7a86b10f13f72cf3099f') in 0.033637 seconds
+  Import took 0.037331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
   path: Assets/Player/Abilities/Prefabs/IceSpike.prefab
   artifactKey: Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Abilities/Prefabs/IceSpike.prefab using Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea002cc39e5a9f79638cc896f13277d') in 0.085368 seconds
-  Import took 0.089126 seconds .
+Start importing Assets/Player/Abilities/Prefabs/IceSpike.prefab using Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfc1c5df29ccee7ab74b51aab70ac79') in 0.024272 seconds
+  Import took 0.027281 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.2 MB.
+System memory in use after: 142.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2545.
+Total: 2.529200 ms (FindLiveObjects: 0.181700 ms CreateObjectMapping: 0.074000 ms MarkObjects: 2.182100 ms  DeleteObjects: 0.090700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003397 seconds.
+  Time since last request: 40.459418 seconds.
   path: Assets/Player/Abilities/Prefabs/IceSpike.prefab
   artifactKey: Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Abilities/Prefabs/IceSpike.prefab using Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea002cc39e5a9f79638cc896f13277d') in 0.031725 seconds
-  Import took 0.035607 seconds .
+Start importing Assets/Player/Abilities/Prefabs/IceSpike.prefab using Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39689e4fb2c3b653e4ea10fa6ba812a2') in 0.022254 seconds
+  Import took 0.025432 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.014287 seconds.
+  Time since last request: 2.830453 seconds.
   path: Assets/Player/Abilities/Prefabs/IceSpike.prefab
   artifactKey: Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Abilities/Prefabs/IceSpike.prefab using Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d86ac2c6e448a0f9a0d635b03d8214') in 0.032813 seconds
-  Import took 0.038117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.681055 seconds.
-  path: Assets/Player/Abilities/Prefabs/IceSpike.prefab
-  artifactKey: Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Abilities/Prefabs/IceSpike.prefab using Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960c4196551a510652d8de77c6f97ed9') in 0.024071 seconds
-  Import took 0.029253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010022 seconds.
-  path: Assets/Player/Abilities/Prefabs/IceSpike.prefab
-  artifactKey: Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Abilities/Prefabs/IceSpike.prefab using Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960c4196551a510652d8de77c6f97ed9') in 0.063756 seconds
-  Import took 0.067219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.520456 seconds.
-  path: Assets/Player/Abilities/Prefabs/IceSpike.prefab
-  artifactKey: Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Abilities/Prefabs/IceSpike.prefab using Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a523c6f9f8909472ef7e667e5f987c') in 0.031143 seconds
-  Import took 0.034974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.903043 seconds.
-  path: Assets/Enemies/EnemyFireball.prefab
-  artifactKey: Guid(c06f2e767ba857a4ea86356f7a0ce929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/EnemyFireball.prefab using Guid(c06f2e767ba857a4ea86356f7a0ce929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606ee9fcef49c15acabd3c68a6ddc3ed') in 0.012728 seconds
-  Import took 0.017684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000776 seconds.
-  path: Assets/Enemies/EnemyFireball.prefab
-  artifactKey: Guid(c06f2e767ba857a4ea86356f7a0ce929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/EnemyFireball.prefab using Guid(c06f2e767ba857a4ea86356f7a0ce929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606ee9fcef49c15acabd3c68a6ddc3ed') in 0.010651 seconds
-  Import took 0.014240 seconds .
+Start importing Assets/Player/Abilities/Prefabs/IceSpike.prefab using Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004124393c0a7b2ddd4b19943b73c766') in 0.027844 seconds
+  Import took 0.031616 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005060 seconds.
+Registered in 0.005770 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001C9A0D1EA20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000027EED7F7F10 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A227D020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-0000027EE77B3020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A227D020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000027EED8C8010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0BFF020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000027EE5A878E0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A686CB20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-0000027EE74C19A0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ADAC10 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000027EE77B3020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A227D020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000027EE77B3020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A538B010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000027EE992A020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1562040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000027EE5A05010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0D1EA20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-0000027EEDE7E670 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5D0CF40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000027EED8C8010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5FF0080 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-0000027EE7CF3020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4C566B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-0000027EE57DA010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0BFF020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-0000027EE9661480 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0BFF020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000027EE82A99B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0A6EAA0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000027EE7924020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4C566B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000027EE57DA010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0A6EAA0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-0000027EE7589E20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4549010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000027EE9233010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0B35C20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-0000027EE932E040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0D1EA20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-0000027EE5562070 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ADAC10 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-0000027EE77B3020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0D1EA20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-0000027EED7F7F10 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C97EEB5CA0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-0000027EE542A060 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4C0F6E0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000027EEC18CFE0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4A3D040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000027EE77D8CF0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ADAC10 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000027EE7A3E020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0A65130 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-0000027EEDE7E670 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0D1EA20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-0000027EE54D0010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A68B1A10 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.2 MB.
-System memory in use after: 181.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2553.
-Total: 2.054700 ms (FindLiveObjects: 0.184200 ms CreateObjectMapping: 0.071000 ms MarkObjects: 1.695800 ms  DeleteObjects: 0.102800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005041 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C7E4A43CC0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5D0CF40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4999010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0BFF020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5E8E260 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5D0CF40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5D0CF40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A538B010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1562040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0D1EA20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5D0CF40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4E6A410 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4C566B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0BFF020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0BFF020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A09E8700 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4C566B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0A6EAA0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5D444C0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4AE2C20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F7A220 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4999010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F7A220 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7FAA77B40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A20B8AB0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4F60080 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4999010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4A79A20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F7A220 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A68B44D0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-0000027EED6F7460 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  0.986 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -554,412 +322,104 @@ Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 181.2 MB.
 System memory in use after: 181.3 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2556.
-Total: 1.968500 ms (FindLiveObjects: 0.160000 ms CreateObjectMapping: 0.063200 ms MarkObjects: 1.649200 ms  DeleteObjects: 0.095300 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2548.
+Total: 2.118300 ms (FindLiveObjects: 0.163700 ms CreateObjectMapping: 0.064000 ms MarkObjects: 1.748000 ms  DeleteObjects: 0.141400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.420030 seconds.
+  path: Assets/Player/Abilities/Prefabs/IceSpike.prefab
+  artifactKey: Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Abilities/Prefabs/IceSpike.prefab using Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908370ae42cb1b8b472036b7e0886cd3') in 0.060522 seconds
+  Import took 0.063758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.246603 seconds.
+  path: Assets/Player/Abilities/Prefabs/IceSpike.prefab
+  artifactKey: Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Abilities/Prefabs/IceSpike.prefab using Guid(61207975c64cd1b43880aa9ba79cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908370ae42cb1b8b472036b7e0886cd3') in 0.021516 seconds
+  Import took 0.026437 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004956 seconds.
+Registered in 0.005878 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001C9A4F6D930 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000027EEC63C390 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0F9E020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-0000027EE55A1010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A57CCE30 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000027EE55A1010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6C0C010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000027EEC972E70 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6717270 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-0000027EEC161730 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A2EC6030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000027EE7680020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0F9E020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000027EE55A1010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A655C040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000027EE992A020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4A6F010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000027EE5A05010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4EAA060 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-0000027EEBA72060 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0F9E020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000027EE55A1010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C80AF020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-0000027EE7CF3020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4C566B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-0000027EE57DA010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5702020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-0000027EE55747A0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6E782C0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000027EE55747A0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6159030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000027EE7924020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4C566B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000027EE57DA010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6159030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-0000027EE7924020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A412C040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000027EECF9B070 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A3F9C030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-0000027EE9505020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4EAA060 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-0000027EEBA72060 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A2EC6030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-0000027EE7680020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F7A220 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-0000027EEC968850 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0D1FB90 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-0000027EE542A060 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A20FD8A0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000027EEC18CFE0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A67FFC70 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000027EEB7528F0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A2EC6030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000027EE591DB80 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1832850 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-0000027EFC273290 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F7A220 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-0000027EEC968850 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A68B1A10 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-0000027EED6F7220 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.1 MB.
-System memory in use after: 181.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2559.
-Total: 1.935500 ms (FindLiveObjects: 0.152800 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.623500 ms  DeleteObjects: 0.101000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004881 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C9A41298E0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A67D8580 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4C03030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6ACA040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6718940 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ECF850 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A67D8580 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A655C040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1562040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A09EC130 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A67D8580 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0EF4020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F41010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5702020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A69D7020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6C0C010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F41010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6C0C010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5B23020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6C0C010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5979020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ECF850 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A69E6200 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5AFF550 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A688F010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6D52920 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ECF850 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5BE9CB0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A69E6200 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A68B1A10 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 181.2 MB.
 System memory in use after: 181.3 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2562.
-Total: 1.916100 ms (FindLiveObjects: 0.153800 ms CreateObjectMapping: 0.058400 ms MarkObjects: 1.606300 ms  DeleteObjects: 0.096800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005943 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C9A5AE61C0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A20E4020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C80E1030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C7D89010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6710980 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A47FB010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A20E4020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A655C040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1562040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4BC7050 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0F9E020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C8273020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F41010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C7C5B010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A628E0B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A124C9B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F41010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C8811040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6D52920 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C8811040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4BC7050 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A2EC6030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F7A220 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A290BA40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0E584D0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A178C010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A2EC6030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5BF04F0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F7A220 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A68B2790 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.983 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.2 MB.
-System memory in use after: 181.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2565.
-Total: 2.802100 ms (FindLiveObjects: 0.247400 ms CreateObjectMapping: 0.136600 ms MarkObjects: 2.266200 ms  DeleteObjects: 0.149900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004974 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C9A41250C0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E494D030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C80E1030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C7D89010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A660D530 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4999010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E494D030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A655C040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1562040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C822F040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0F9E020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ECF850 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F41010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5B5F010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6E782C0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A628E0B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F41010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A124C9B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6D52920 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A09E8700 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C822F040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4999010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F7A220 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4C96F20 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A4A73C80 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5ABF530 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6B1C020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6038DE0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F7A220 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A68B1110 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.3 MB.
-System memory in use after: 181.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2568.
-Total: 2.042700 ms (FindLiveObjects: 0.178200 ms CreateObjectMapping: 0.071000 ms MarkObjects: 1.649400 ms  DeleteObjects: 0.142800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005104 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C9A2C8D4F0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0F9E020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A2E7E050 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C7D89010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A660B9D0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E494D030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0F9E020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A655C040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1562040 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5299A60 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A0F9E020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4ECF850 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C84C6AB0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5B5F010 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A6E782C0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4D712C0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C84C6AB0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A40F0C40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A450B6A0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A5702020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A2B760B0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E494D030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F7A220 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9C839BA40 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A1430C80 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A68C8020 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E494D030 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A49740F0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C7E4F7A220 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C9A68B29D0 doesn't match image F:\Projects\TeamProjects\CloakedBlokeRep\CloakedBloke\CloakedBloke\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.3 MB.
-System memory in use after: 181.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2571.
-Total: 2.090200 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.081900 ms MarkObjects: 1.701400 ms  DeleteObjects: 0.104900 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2552.
+Total: 2.007200 ms (FindLiveObjects: 0.153900 ms CreateObjectMapping: 0.056900 ms MarkObjects: 1.697100 ms  DeleteObjects: 0.098600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

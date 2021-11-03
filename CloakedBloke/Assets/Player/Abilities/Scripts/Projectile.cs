@@ -38,6 +38,8 @@ public class Projectile : MonoBehaviour
     {
     }
 
+    //TODO refactor projectile to check for which values it has before checking for target components
+    //No reason to check for effect script if you aren't applying one. Assuming that's faster.
     //for non-physics projectiles: fireball
     private void OnTriggerEnter(Collider target)
     {
@@ -50,7 +52,7 @@ public class Projectile : MonoBehaviour
         if (targetHealth != null)
         {
             targetHealth.TakeDamage(damage);
-            StartCoroutine(targetHealth.DoT(DamageOverTime, DoTDuration));
+            targetHealth.ApplyDoT(DamageOverTime, DoTDuration);
         }
         if (targetEffect != null)
         {

@@ -92,30 +92,19 @@ public class Health : MonoBehaviour
 
     public void ApplyDoT(float amount, int duration)
     {
-        StartCoroutine(Example());
+        StartCoroutine(DoT(amount, duration));
     }
 
-    public IEnumerator DoT(float amount, int duration)
+    IEnumerator DoT(float amount, int duration)
     {
-        int appliedDuration = 0;
         while (duration > 0)
         {
-            yield return new WaitForSeconds(1);
+            //yield return new WaitForSeconds(1);
             duration--;
             TakeDamage(amount);
-            Debug.Log("DoT damage tic");
-
-            //Debug.Log("waited");
-            TakeDamage(amount);
-            Debug.Log("second tic");
+            yield return new WaitForSeconds(1);
         }
         //enable dot effect, probably need passed in the function if we are using more than burning. maybe strat with just buning.
     }
 
-        IEnumerator Example()
-        {
-            print(Time.time);
-            yield return new WaitForSecondsRealtime(5);
-            print(Time.time);
-        }
 }

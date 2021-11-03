@@ -4880,9 +4880,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
-  damage: 1
+  damage: 0
   slowAmount: 0
   slowDuration: 0
-  DamageOverTime: 3
-  DoTDuration: 10
+  DamageOverTime: 5
+  DoTDuration: 3
   hitEffect: {fileID: 1828176872806910, guid: 64891a0eb28db934898420d80ca07cb3, type: 3}
