@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //this class should be added to any porjectile based abilities, and the appropriate fields should be modified, i.e. the correct damage and hitEffect
-public class Projectile : MonoBehaviour
+public class Projectile : Ability
 {
     [SerializeField]
     private float speed;

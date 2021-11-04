@@ -7,9 +7,7 @@ public class AbilityController : MonoBehaviour
 {
     //make this a dictionary so you can define the controller that each ability uses. 
     //then the value can be the controller.
-    [SerializeField]
-    public List<GameObject> abilities;
-
+    
     [SerializeField]
     private KeyCode ability1Key;
     [SerializeField]
@@ -31,13 +29,13 @@ public class AbilityController : MonoBehaviour
     [SerializeField]
     private GameObject ability5;
     [SerializeField]
-    private KeyCode ability6Key = KeyCode.LeftShift;
+    private KeyCode dashKey = KeyCode.LeftShift;
     //[SerializeField]
     //private GameObject ability6;
 
     //Types of of spawners
     [SerializeField]
-    private GameObject abilitySpawner;
+    private GameObject projectileSpawner;
     [SerializeField]
     private GameObject shieldSpawner;
     [SerializeField]
@@ -48,6 +46,29 @@ public class AbilityController : MonoBehaviour
     private GameObject ability3Controller;
     private GameObject ability4Controller;
     private GameObject ability5Controller;
+
+    //enum of the controllers used to allow certain controllers on certain keys
+    private enum Controllers
+    {
+        Projectile,
+        Minion,
+        Shield
+    }
+
+    private Controllers controller1;
+    private Controllers controller2;
+    private Controllers controller3;
+    private Controllers controller4;
+    private Controllers controller5;
+
+    //cooldown for each ability
+    private float ability1Cooldown;
+    private float ability2Cooldown;
+    private float ability3Cooldown;
+    private float ability4Cooldown;
+    private float ability5Cooldown;
+
+
 
     //variables for movement abilities, speed might need to become distance...testing needed.
     [SerializeField]
@@ -78,26 +99,79 @@ public class AbilityController : MonoBehaviour
         //refactor this out to detect ability key pressed function, which could hold global cd
         if (Input.GetKeyDown(ability1Key))
         {
-            ability1Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability1);
+            switch (controller1)
+            {
+                case Controllers.Shield:
+                    ability1Controller.GetComponent<ShieldSpawner>().SpawnShield();
+                    break;
+                case Controllers.Minion:
+                    ability1Controller.GetComponent<MinionSpawner>().SpawnMinion(ability1);
+                    break;
+                case Controllers.Projectile:
+                    ability1Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability1);
+                    break;
+                default:
+                    ability1Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability1);
+                    break;
+            }
         }
 
         if (Input.GetKeyDown(ability2Key))
         {
-            ability2Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability2);
-
+            switch (controller2)
+            {
+                case Controllers.Shield:
+                    ability2Controller.GetComponent<ShieldSpawner>().SpawnShield();
+                    break;
+                case Controllers.Minion:
+                    ability2Controller.GetComponent<MinionSpawner>().SpawnMinion(ability2);
+                    break;
+                case Controllers.Projectile:
+                    ability2Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability2);
+                    break;
+                default:
+                    ability2Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability2);
+                    break;
+            }
         }
         if (Input.GetKeyDown(ability3Key))
         {
-            ability3Controller.GetComponent<ShieldSpawner>().SpawnShield();
-
+            switch (controller3)
+            {
+                case Controllers.Shield:
+                    ability3Controller.GetComponent<ShieldSpawner>().SpawnShield();
+                    break;
+                case Controllers.Minion:
+                    ability3Controller.GetComponent<MinionSpawner>().SpawnMinion(ability3);
+                    break;
+                case Controllers.Projectile:
+                    ability3Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability3);
+                    break;
+                default:
+                    ability3Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability3);
+                    break;
+            }
         }
         if (Input.GetKeyDown(ability4Key))
         {
-            ability4Controller.GetComponent<MinionSpawner>().SpawnMinion(ability4);
-
+            switch (controller4)
+            {
+                case Controllers.Shield:
+                    ability4Controller.GetComponent<ShieldSpawner>().SpawnShield();
+                    break;
+                case Controllers.Minion:
+                    ability4Controller.GetComponent<MinionSpawner>().SpawnMinion(ability4);
+                    break;
+                case Controllers.Projectile:
+                    ability4Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability4);
+                    break;
+                default:
+                    ability4Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability4);
+                    break;
+            }
         }
 
-        if (Input.GetKeyDown(ability6Key))
+        if (Input.GetKeyDown(dashKey))
         {
             isDashing = true;
         }
@@ -118,34 +192,170 @@ public class AbilityController : MonoBehaviour
         isDashing = false;
     }
 
+
+
     private void UpdateAbilityControls()
     {
 
-        
-
-        //without using a list?
         //if (ability1 != null)
         //{
         //    if (ability1.GetComponent<Projectile>())
         //    {
-        //        ability1Controller = Instantiate(abilitySpawner, transform, false);
-        //    }
-        //    else if (ability1.GetComponent<Minion>())
-        //    {
-        //        ability1Controller = Instantiate(abilitySpawner, transform, false);
+        //        ability1Controller = Instantiate(projectileSpawner, transform, false);
         //    }
         //    else if (ability1.GetComponent<Shield>())
         //    {
         //        ability1Controller = Instantiate(shieldSpawner, transform, false);
         //    }
+        //    else if (ability1.GetComponent<Minion>())
+        //    {
+        //        ability1Controller = Instantiate(minionSpawner, transform, false);
+        //    }
+
         //}
         //if (ability2 != null)
         //{
         //    if (ability2.GetComponent<Projectile>())
         //    {
-        //        ability2Controller = Instantiate(abilitySpawner, transform, false);
+        //        ability2Controller = Instantiate(projectileSpawner, transform, false);
+        //    }
+        //    else if (ability2.GetComponent<Shield>())
+        //    {
+        //        ability2Controller = Instantiate(shieldSpawner, transform, false);
+        //    }
+        //    else if (ability2.GetComponent<Minion>())
+        //    {
+        //        ability2Controller = Instantiate(minionSpawner, transform, false);
         //    }
         //}
+        //if (ability3 != null)
+        //{
+        //    if (ability3.GetComponent<Projectile>())
+        //    {
+        //        ability3Controller = Instantiate(projectileSpawner, transform, false);
+        //    }
+        //    else if (ability3.GetComponent<Shield>())
+        //    {
+        //        ability3Controller = Instantiate(shieldSpawner, transform, false);
+        //    }
+        //    else if (ability3.GetComponent<Minion>())
+        //    {
+        //        ability3Controller = Instantiate(minionSpawner, transform, false);
+        //    }
+        //}
+        //if (ability4 != null)
+        //{
+        //    if (ability4.GetComponent<Projectile>())
+        //    {
+        //        ability4Controller = Instantiate(projectileSpawner, transform, false);
+        //    }
+        //    else if (ability4.GetComponent<Shield>())
+        //    {
+        //        ability4Controller = Instantiate(shieldSpawner, transform, false);
+        //    }
+        //    else if (ability4.GetComponent<Minion>())
+        //    {
+        //        ability4Controller = Instantiate(minionSpawner, transform, false);
+        //    }
+        //}
+
+        //without using a list?
+        if (ability1 != null)
+        {
+            if (ability1.GetComponent<Ability>())
+            {
+                Ability thisAbility = ability1.GetComponent<Ability>();
+
+                switch (thisAbility.GetController())
+                {
+                    case 2:
+                        ability1Controller = Instantiate(shieldSpawner, transform, false);
+                        controller1 = Controllers.Shield;
+                        break;
+                    case 1:
+                        ability1Controller = Instantiate(minionSpawner, transform, false);
+                        controller1 = Controllers.Minion;
+                        break;
+                    case 0:
+                        ability1Controller = Instantiate(projectileSpawner, transform, false);
+                        controller1 = Controllers.Projectile;
+                        break;
+                    default:
+                        ability1Controller = Instantiate(projectileSpawner, transform, false);
+                        controller1 = Controllers.Projectile;
+                        break;
+                }
+            }
+        //    if (ability1.GetComponent<Projectile>())
+        //    {
+        //        ability1Controller = Instantiate(projectileSpawner, transform, false);
+        //    }
+        //    else if (ability1.GetComponent<Minion>())
+        //    {
+        //        ability1Controller = Instantiate(projectileSpawner, transform, false);
+        //    }
+        //    else if (ability1.GetComponent<Shield>())
+        //    {
+        //        ability1Controller = Instantiate(shieldSpawner, transform, false);
+        //    }
+        }
+        if (ability2.GetComponent<Ability>())
+        {
+            int controllerType = ability2.GetComponent<Ability>().GetController();
+
+            switch (controllerType)
+            {
+                case 2:
+                    ability2Controller = Instantiate(shieldSpawner, transform, false);
+                    controller2 = Controllers.Shield;
+                    break;
+                case 1:
+                    ability2Controller = Instantiate(minionSpawner, transform, false);
+                    controller2 = Controllers.Minion;
+                    break;
+                case 0:
+                    ability2Controller = Instantiate(projectileSpawner, transform, false);
+                    controller2 = Controllers.Projectile;
+                    break;
+                default:
+                    ability2Controller = Instantiate(projectileSpawner, transform, false);
+                    controller2 = Controllers.Projectile;
+                    break;
+
+            }
+        }
+        //if (ability2 != null)
+        //{
+        //    if (ability2.GetComponent<Projectile>())
+        //    {
+        //        ability2Controller = Instantiate(projectileSpawner, transform, false);
+        //    }
+        //}
+        if (ability3.GetComponent<Ability>())
+        {
+            int controllerType = ability3.GetComponent<Ability>().GetController();
+
+            switch (controllerType)
+            {
+                case 2:
+                    ability3Controller = Instantiate(shieldSpawner, transform, false);
+                    controller3 = Controllers.Shield;
+                    break;
+                case 1:
+                    ability3Controller = Instantiate(minionSpawner, transform, false);
+                    controller3 = Controllers.Minion;
+                    break;
+                case 0:
+                    ability3Controller = Instantiate(projectileSpawner, transform, false);
+                    controller3 = Controllers.Projectile;
+                    break;
+                default:
+                    ability3Controller = Instantiate(projectileSpawner, transform, false);
+                    controller3 = Controllers.Projectile;
+                    break;
+
+            }
+        }
         //if (ability3 != null)
         //{
         //    if (ability3.GetComponent<Shield>())
@@ -153,6 +363,31 @@ public class AbilityController : MonoBehaviour
         //        ability3Controller = Instantiate(shieldSpawner, transform, false);
         //    }
         //}
+        if (ability4.GetComponent<Ability>())
+        {
+            int controllerType = ability4.GetComponent<Ability>().GetController();
+
+            switch (controllerType)
+            {
+                case 2:
+                    ability4Controller = Instantiate(shieldSpawner, transform, false);
+                    controller4 = Controllers.Shield;
+                    break;
+                case 1:
+                    ability4Controller = Instantiate(minionSpawner, transform, false);
+                    controller4 = Controllers.Minion;
+                    break;
+                case 0:
+                    ability4Controller = Instantiate(projectileSpawner, transform, false);
+                    controller4 = Controllers.Projectile;
+                    break;
+                default:
+                    ability4Controller = Instantiate(projectileSpawner, transform, false);
+                    controller4 = Controllers.Projectile;
+                    break;
+
+            }
+        }
         //if (ability4 != null)
         //{
         //    if (ability4.GetComponent<Minion>())
