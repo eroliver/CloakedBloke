@@ -4879,7 +4879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f2908ae52d522642824794f66c846e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldown: 1
+  cooldown: 0.5
   controller: 0
   speed: 20
   damage: 5

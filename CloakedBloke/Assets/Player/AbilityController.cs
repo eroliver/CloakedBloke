@@ -9,7 +9,6 @@ public class AbilityController : MonoBehaviour
     //make this a dictionary so you can define the controller that each ability uses. 
     //then the value can be the controller.
     
-    [Header("Ability1")]
     [SerializeField]
     private KeyCode ability1Key;
     [SerializeField]
@@ -21,6 +20,9 @@ public class AbilityController : MonoBehaviour
     private KeyCode ability2Key;
     [SerializeField]
     private GameObject ability2;
+    [SerializeField]
+    private Image ability2Image;
+
     [SerializeField]
     private KeyCode ability3Key;
     [SerializeField]
@@ -67,13 +69,13 @@ public class AbilityController : MonoBehaviour
     private Controllers controller5;
 
     //cooldown for each ability
-    private float ability1Cooldown = 5f;
+    private float ability1Cooldown;
     private float ability2Cooldown;
     private float ability3Cooldown;
     private float ability4Cooldown;
     private float ability5Cooldown;
 
-    private bool ability1OnCooldown = false;
+    private bool ability1OnCooldown;
     private bool ability2OnCooldown;
     private bool ability3OnCooldown;
     private bool ability4OnCooldown;
@@ -92,7 +94,7 @@ public class AbilityController : MonoBehaviour
         playerRigidbody = GetComponentInParent<Rigidbody>();
 
         ability1Image.fillAmount = 0;
-        
+        ability2Image.fillAmount = 0;
 
         UpdateAbilityControls();
     }
@@ -107,45 +109,27 @@ public class AbilityController : MonoBehaviour
         }
 
         ActivateAbility1();
+        ActivateAbility2();
 
-        //refactor this out to detect ability key pressed function, which could hold global cd
-        //if (Input.GetKeyDown(ability1Key))
+
+        //if (Input.GetKeyDown(ability2Key))
         //{
-        //    switch (controller1)
+        //    switch (controller2)
         //    {
         //        case Controllers.Shield:
-        //            ability1Controller.GetComponent<ShieldSpawner>().SpawnShield();
+        //            ability2Controller.GetComponent<ShieldSpawner>().SpawnShield();
         //            break;
         //        case Controllers.Minion:
-        //            ability1Controller.GetComponent<MinionSpawner>().SpawnMinion(ability1);
+        //            ability2Controller.GetComponent<MinionSpawner>().SpawnMinion(ability2);
         //            break;
         //        case Controllers.Projectile:
-        //            ability1Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability1);
+        //            ability2Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability2);
         //            break;
         //        default:
-        //            ability1Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability1);
+        //            ability2Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability2);
         //            break;
         //    }
         //}
-
-        if (Input.GetKeyDown(ability2Key))
-        {
-            switch (controller2)
-            {
-                case Controllers.Shield:
-                    ability2Controller.GetComponent<ShieldSpawner>().SpawnShield();
-                    break;
-                case Controllers.Minion:
-                    ability2Controller.GetComponent<MinionSpawner>().SpawnMinion(ability2);
-                    break;
-                case Controllers.Projectile:
-                    ability2Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability2);
-                    break;
-                default:
-                    ability2Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability2);
-                    break;
-            }
-        }
         if (Input.GetKeyDown(ability3Key))
         {
             switch (controller3)
@@ -297,6 +281,9 @@ public class AbilityController : MonoBehaviour
                         controller1 = Controllers.Projectile;
                         break;
                 }
+
+                ability1Cooldown = thisAbility.GetCooldown();
+                
             }
         //    if (ability1.GetComponent<Projectile>())
         //    {
@@ -450,4 +437,44 @@ public class AbilityController : MonoBehaviour
         }
     }
 
+    private void ActivateAbility2()
+    {
+        if (Input.GetKeyDown(ability2Key) && ability2OnCooldown == false)
+        {
+            ability2OnCooldown = true;
+            ability2Image.fillAmount = 1;
+
+            switch (controller2)
+            {
+                case Controllers.Shield:
+                    ability2Controller.GetComponent<ShieldSpawner>().SpawnShield();
+
+                    break;
+                case Controllers.Minion:
+                    ability2Controller.GetComponent<MinionSpawner>().SpawnMinion(ability2);
+
+                    break;
+                case Controllers.Projectile:
+                    ability2Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability2);
+
+                    Debug.Log(ability2OnCooldown);
+                    break;
+                default:
+                    ability2Controller.GetComponent<ProjectileSpawner>().fireProjectile(ability2);
+
+                    break;
+            }
+        }
+
+        if (ability2OnCooldown)
+        {
+            ability2Image.fillAmount -= 1 / ability1Cooldown * Time.deltaTime;
+
+            if (ability2Image.fillAmount <= 0)
+            {
+                ability2Image.fillAmount = 0;
+                ability2OnCooldown = false;
+            }
+        }
+    }
 }
