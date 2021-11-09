@@ -14,14 +14,18 @@ public class AbilityController : MonoBehaviour
     [SerializeField]
     private GameObject ability1;
     [SerializeField]
-    private Image ability1Image;
+    private Image ability1Icon;
+    [SerializeField]
+    private Image ability1CDMask;
 
     [SerializeField]
     private KeyCode ability2Key;
     [SerializeField]
     private GameObject ability2;
     [SerializeField]
-    private Image ability2Image;
+    private Image ability2Icon;
+    [SerializeField]
+    private Image ability2CDMask;
 
     [SerializeField]
     private KeyCode ability3Key;
@@ -93,8 +97,8 @@ public class AbilityController : MonoBehaviour
     {
         playerRigidbody = GetComponentInParent<Rigidbody>();
 
-        ability1Image.fillAmount = 0;
-        ability2Image.fillAmount = 0;
+        ability1CDMask.fillAmount = 0;
+        ability2CDMask.fillAmount = 0;
 
         UpdateAbilityControls();
     }
@@ -283,7 +287,7 @@ public class AbilityController : MonoBehaviour
                 }
 
                 ability1Cooldown = thisAbility.GetCooldown();
-                
+                ability1Icon.sprite = thisAbility.GetImage();
             }
         //    if (ability1.GetComponent<Projectile>())
         //    {
@@ -298,29 +302,35 @@ public class AbilityController : MonoBehaviour
         //        ability1Controller = Instantiate(shieldSpawner, transform, false);
         //    }
         }
-        if (ability2.GetComponent<Ability>())
+
+        if (ability2 != null)
         {
-            int controllerType = ability2.GetComponent<Ability>().GetController();
-
-            switch (controllerType)
+            if (ability2.GetComponent<Ability>())
             {
-                case 2:
-                    ability2Controller = Instantiate(shieldSpawner, transform, false);
-                    controller2 = Controllers.Shield;
-                    break;
-                case 1:
-                    ability2Controller = Instantiate(minionSpawner, transform, false);
-                    controller2 = Controllers.Minion;
-                    break;
-                case 0:
-                    ability2Controller = Instantiate(projectileSpawner, transform, false);
-                    controller2 = Controllers.Projectile;
-                    break;
-                default:
-                    ability2Controller = Instantiate(projectileSpawner, transform, false);
-                    controller2 = Controllers.Projectile;
-                    break;
+                Ability thisAbility = ability2.GetComponent<Ability>();
 
+                switch (thisAbility.GetController())
+                {
+                    case 2:
+                        ability2Controller = Instantiate(shieldSpawner, transform, false);
+                        controller2 = Controllers.Shield;
+                        break;
+                    case 1:
+                        ability2Controller = Instantiate(minionSpawner, transform, false);
+                        controller2 = Controllers.Minion;
+                        break;
+                    case 0:
+                        ability2Controller = Instantiate(projectileSpawner, transform, false);
+                        controller2 = Controllers.Projectile;
+                        break;
+                    default:
+                        ability2Controller = Instantiate(projectileSpawner, transform, false);
+                        controller2 = Controllers.Projectile;
+                        break;
+
+                }
+                ability2Cooldown = thisAbility.GetCooldown();
+                ability2Icon.sprite = thisAbility.GetImage();
             }
         }
         //if (ability2 != null)
@@ -401,7 +411,7 @@ public class AbilityController : MonoBehaviour
         if (Input.GetKeyDown(ability1Key) && ability1OnCooldown == false)
         {
             ability1OnCooldown = true;
-            ability1Image.fillAmount = 1;
+            ability1CDMask.fillAmount = 1;
 
             switch (controller1)
             {
@@ -427,11 +437,11 @@ public class AbilityController : MonoBehaviour
 
         if (ability1OnCooldown)
         {
-            ability1Image.fillAmount -= 1 / ability1Cooldown * Time.deltaTime;
+            ability1CDMask.fillAmount -= 1 / ability1Cooldown * Time.deltaTime;
 
-            if (ability1Image.fillAmount <= 0)
+            if (ability1CDMask.fillAmount <= 0)
             {
-                ability1Image.fillAmount = 0;
+                ability1CDMask.fillAmount = 0;
                 ability1OnCooldown = false;
             }
         }
@@ -442,7 +452,7 @@ public class AbilityController : MonoBehaviour
         if (Input.GetKeyDown(ability2Key) && ability2OnCooldown == false)
         {
             ability2OnCooldown = true;
-            ability2Image.fillAmount = 1;
+            ability2CDMask.fillAmount = 1;
 
             switch (controller2)
             {
@@ -468,11 +478,11 @@ public class AbilityController : MonoBehaviour
 
         if (ability2OnCooldown)
         {
-            ability2Image.fillAmount -= 1 / ability1Cooldown * Time.deltaTime;
+            ability2CDMask.fillAmount -= 1 / ability2Cooldown * Time.deltaTime;
 
-            if (ability2Image.fillAmount <= 0)
+            if (ability2CDMask.fillAmount <= 0)
             {
-                ability2Image.fillAmount = 0;
+                ability2CDMask.fillAmount = 0;
                 ability2OnCooldown = false;
             }
         }

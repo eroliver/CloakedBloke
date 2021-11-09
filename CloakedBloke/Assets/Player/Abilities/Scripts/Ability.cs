@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 //Used for common functionality shared by all abilities like cool downs. 
 public abstract class Ability : MonoBehaviour
@@ -8,6 +9,9 @@ public abstract class Ability : MonoBehaviour
     [Tooltip("Cool down the player will have to wait before using this ability again.")]
     [SerializeField]
     private float cooldown;
+    [Tooltip("Choose an Icon for this ability")]
+    [SerializeField]
+    private Sprite abilityImage;
     [Tooltip("Which type of controller should this ability use?")]
     [SerializeField]
     private Controllers controller;
@@ -39,5 +43,10 @@ public abstract class Ability : MonoBehaviour
     public float GetCooldown()
     {
         return cooldown;
+    }
+
+    public Sprite GetImage()
+    {
+        return abilityImage;
     }
 }
